@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
 
-  mount Monologue::Engine, at: '/blog'
+  mount Monologue::Engine, at: '/'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 

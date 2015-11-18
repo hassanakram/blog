@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/chloerei/highlight_js-rails.git
+  revision: 81d01156776e25b49cb52057ae880e70667b399b
+  specs:
+    highlight_js-rails (7.1.0)
+      rails (>= 3.1.1)
+
+GIT
   remote: git://github.com/jipiboily/monologue.git
   revision: 7d0156cc02e791330a7d2f23e5671259914daa58
   branch: master
@@ -182,6 +189,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  highlight_js-rails!
   jbuilder (~> 2.0)
   jquery-rails
   monologue!

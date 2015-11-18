@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 #bloging engine
 gem 'monologue', :github => 'jipiboily/monologue', :branch => 'master'
+gem 'highlight_js-rails', :git => 'git://github.com/chloerei/highlight_js-rails.git'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
