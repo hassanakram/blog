@@ -10,8 +10,8 @@ xml.rss version: "2.0" do
         xml.title post.title
         xml.description raw(post.content)
         xml.pubDate post.published_at.to_s(:rfc822)
-        xml.link Monologue::Config.site_url + post.full_url
-        xml.guid Monologue::Config.site_url + post.full_url
+        xml.link request.base_url.to_s + post.full_url.to_s
+        xml.guid request.base_url.to_s + post.full_url.to_s
       end
     end
   end
