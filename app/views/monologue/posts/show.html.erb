@@ -8,6 +8,7 @@
 
 <article>
   <%= render partial: 'monologue/posts/post_header', locals: {post: @post }%>
+  </br></br>
   <div class="content" data-monologue="content">
     <%= raw @post.content %>
   </div>
@@ -16,6 +17,7 @@
     <%= render @post.tags %>
   </div>
 
+  </br></br>
   <%= render "monologue/posts/social_sharing" %>
 
   <div id="disqus_thread"></div>

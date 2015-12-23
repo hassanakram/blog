@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 1.3
  * Author: Xiaoying Riley
@@ -7,10 +7,23 @@
  * Website: http://themes.3rdwavemedia.com/
 */
 /* ======= Base ======= */
+
+.post-header a {
+  color: black;
+}
+
+.container .column, .container .columns {
+  float: none !important;
+}
+
+pre {
+  width: 1000px;
+  margin-left: 200px;
+}
+
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #dae3e7;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,17 +39,12 @@ h6 {
   color: #778492;
 }
 a {
-  color: #3aaa64;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
-a:hover {
-  text-decoration: underline;
-  color: #5f6b77;
-  color: #2d844e;
-}
+
 a:focus {
   text-decoration: none;
 }
