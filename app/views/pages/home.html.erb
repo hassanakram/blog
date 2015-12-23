@@ -76,12 +76,12 @@
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title">
-                                        <a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-web-development-agencies-devstudio/" target="_blank">
-                                            <%= link_to post.tags.map(&:name).join(' '), post.full_url %>
+                                        <a href="" target="_blank">
+                                            <%= link_to post.title, post.full_url %>
                                         </a>
                                     </h3>
 
-                                    <p><%= truncate_html(post.content, length: 100, omission: '...') %></p>
+                                    <p><%= ActionView::Base.full_sanitizer.sanitize(truncate_html(post.content, length: 100, omission: '...')) %></p>
                                 </div>
                             </div>
                         <% end %>
