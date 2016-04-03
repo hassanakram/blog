@@ -12,14 +12,6 @@
   color: black;
 }
 
-.container .column, .container .columns {
-  float: none !important;
-}
-
-pre {
-  width: 1000px;
-  margin-left: 200px;
-}
 
 body {
   font-family: 'Lato', arial, sans-serif;
@@ -541,7 +533,7 @@ iframe {
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
-  .container {
-    width: 1360px;
+  .blog-container {
+    width: 750px;
   }
 }
