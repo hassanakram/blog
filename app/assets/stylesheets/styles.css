@@ -528,6 +528,11 @@ iframe {
     margin-bottom: 15px;
   }
 }
+
+.blog-container {
+  width: 750px;
+}
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
