@@ -16,6 +16,7 @@
   overflow: auto;
   font-size: 12px;
   margin: 12px 0;
+  width: 100%;
 }
 
 .CodeRay .an { color:#E7BE69 }                      /* html attribute */
