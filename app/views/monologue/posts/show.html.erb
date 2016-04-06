@@ -10,7 +10,7 @@
   <%= render partial: 'monologue/posts/post_header', locals: {post: @post }%>
   </br></br>
   <div class="content" data-monologue="content">
-    <%= raw @post.content %>
+    <%= raw highlight_code(@post.content) %>
   </div>
 
 	<div class="tags" data-monologue="tags">

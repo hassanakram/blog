@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 #bloging engine
 gem 'monologue', :github => 'jipiboily/monologue', :branch => 'master'
-gem 'highlight_js-rails', :git => 'git://github.com/chloerei/highlight_js-rails.git'
+gem 'coderay'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem "font-awesome-rails"
 

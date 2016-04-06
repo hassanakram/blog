@@ -1,11 +1,4 @@
 GIT
-  remote: git://github.com/chloerei/highlight_js-rails.git
-  revision: 81d01156776e25b49cb52057ae880e70667b399b
-  specs:
-    highlight_js-rails (7.1.0)
-      rails (>= 3.1.1)
-
-GIT
   remote: git://github.com/jipiboily/monologue.git
   revision: 7d0156cc02e791330a7d2f23e5671259914daa58
   branch: master
@@ -79,6 +72,7 @@ GEM
       activesupport (>= 3.0)
     cocaine (0.5.7)
       climate_control (>= 0.0.3, < 1.0)
+    coderay (1.1.1)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -197,9 +191,9 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3.5)
   byebug
+  coderay
   coffee-rails (~> 4.1.0)
   font-awesome-rails
-  highlight_js-rails!
   jbuilder (~> 2.0)
   jquery-rails
   monologue!
